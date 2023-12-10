@@ -1,3 +1,33 @@
 h1{
-    font-family:"PressStart2P";
+    font-family: 'Press Start 2P';font-size: 50px;
 }
+
+.welcomepage{
+    color: aliceblue;
+    background-color: rgb(50, 27, 119);
+    padding: 100px;
+
+}
+
+body {
+    background-color: #800080; /* Purple background color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 100vh; /* Set the height to 100% of the viewport height */
+  }
+  
+  .grid-item {
+    border: 1px solid white; /* White border for grid items */
+  }
+  
+  .content {
+    text-align: center;
+    padding: 50px;
+    color: white;
+  }
