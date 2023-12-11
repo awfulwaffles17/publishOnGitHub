@@ -1,18 +1,35 @@
 html{
-    cursor: none;
+    cursor:none;
+}
+.cursor {
+    pointer-events: none;
+    position: fixed;
+    z-index: 1000;
 }
 
-#circularcursor {
-    background-color: transparent;
-    border:1px solid black;    
-    height:20px;
-    width:20px;
-    border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
+.cursor__ball {
+    border-radius: 50%;
     position: absolute;
-    z-index: 1;
-  }
+    background-color: #f7f8fa;
+}
+
+.cursor__ball--big {
+    height: 30px;
+    width: 30px;
+}
+
+.cursor__ball--small {
+    height: 10px;
+    width: 10px;
+}
+
+.hoverable {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ddd;
+    cursor: pointer;
+}
+  
 
 body {
     margin: 0;
