@@ -260,7 +260,7 @@ body {
     width:500px;
     height: 500px;
     color: #fff;
-    display: ;
+    display: flex;
     padding: 100px;
     font-family: 'clash display';
     margin-top: 90px;
