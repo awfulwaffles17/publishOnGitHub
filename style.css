@@ -1,41 +1,19 @@
 html{
     cursor:none;
 }
-.cursor {
-    pointer-events: none;
-    position: fixed;
-    z-index: 1000;
-}
-
-.cursor__ball {
-    border-radius: 50%;
-    position: absolute;
-    background-color: #f7f8fa;
-}
-
-.cursor__ball--big {
-    height: 30px;
-    width: 30px;
-}
-
-.cursor__ball--small {
-    height: 10px;
-    width: 10px;
-}
-
-.hoverable {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #ddd;
-    cursor: pointer;
-}
-  
 
 body {
+    cursor: none;
     margin: 0;
     padding: 0;
-    color: #fff;
-    font-family: 'Press Start 2P' ;
+}
+
+#cursor {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    pointer-events:none;
 }
 
 .container {
@@ -43,24 +21,7 @@ body {
     height: 100%;
     position: relative;
     color: #fff;
-    
 }
-
-.content-section {
-    width: 1724px;
-    height: 2234px;
-    left: 0;
-    top: 0;
-    position: absolute;
-}
-
-.communication-designer-section {
-    width: 2713px;
-    height: 141px;
-    left: 4px;
-    top: 1892px;
-}
-
 
 .grid-background {
     background-image: url('images/website\ bg.png');
@@ -74,13 +35,14 @@ body {
 
 .display-1.heading-font {
     font-family: 'Press Start 2p';
-    font-size:200px ;
+    font-size:170px ;
 }
 
 .navbar-brand.heading-font{
     font-family: 'clash display';
     color: #fff;
     font-size: 25px;
+    text-align: left;
 }
 
 .d-flex{
@@ -90,54 +52,172 @@ body {
 
 .d-flex a:hover{
     color: black;
+    cursor:none;
+}
+
+.container-fluid a:hover{
+    color: black;
+    cursor:none;
+}
+
+.container-fluid{
+    text-align: left;
+    padding-left: -400px;
+}
+
+.logo{
+    display: flex;
 }
 
 #hero{
     font-family: 'Press Start 2p';
-    font-size: 50px;
-    padding-bottom: 300px;
-}
-
-
-#about{
-    font-family: 'clash display';
-    text-align: right;
-}
-
-.flex-container{
-    display:flex;
-    position: absolute;
-    
-}
-
-.shape-container{
-    width:800px;
-    height:800px;
-    background: #fff;
-    display:flow-root;
-    left:50%;
-    position:absolute;
-    transform: translate(-50%,-50%);
-    transform: rotate(-45deg);
-    transform-origin:0 100%;
-    position: relative;
-    padding-top: 200px;
-
-}
-
-
-.AMhead{
-    text-align: right;
-    font-size: 40px;
-    display:contents;
-}
+    font-size: 30px;
+    text-align: left;
+    padding-left: -400px;
+    padding-bottom: 150px;
+    }
 
 .p{
     font-size: 50px;
 }
 
-.AMimage{
+
+#about {
+    font-family: 'clash display';
+    font-size: 16px;
+    color: blueviolet;
+    left: 300px;
+    text-align: right;
+    padding-right: 50px;
+    padding-bottom: 120px;
+    margin: auto;
+}
+
+.about a:hover{
+    color: #fff;
+}
+
+.move{
+    font-family: 'Press Start 2P';
+    font-size:50px;
+    text-align:right;
+}
+
+.shape-container {
+    width: 600px;
+    height: 600px;
+    background: #fff;
+    position: relative;
+    margin:auto;
+    transform: rotate(-45deg);
+    overflow:visible;
+}
+
+.smalld{
+    width:20px;
+    height:20px;
+    background: #fff;
+    display:inline-block;
+    margin:10px;
+    transform: rotate(-45deg);
+}
+
+.smallD{
+    width:20px;
+    height:20px;
+    background: #fff;
+    display:inline-block;
+    margin:10px;
+    margin-right: 50px;
+    transform: rotate(-45deg);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    transform: rotate(45deg);
+}
+
+.content {
+    flex: 1;
     padding: 20px;
 }
 
+.AMhead {
+    font-size: 40px;
+    text-align:center;
+}
 
+.AMimage {
+    padding: 20px;
+}
+
+.scrolling-text-container{
+    position: relative;
+    top: 50%;
+    left: 0;
+    
+  }
+  
+  .scrolling-text {
+    display: inline-block;
+    font-family: 'Press Start 2P';
+    font-size: 100px;
+  }
+
+  .scrolling-text.movertl{
+    display: inline-block;
+    font-family: 'Press Start 2P';
+    font-size: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .scrolling-text.moveltr,.scrolling-text.movertl {
+    color: #fff;
+    font-size: 50px;
+    white-space: nowrap;
+    line-height: 1em;
+    margin-top: 10px;
+
+  }
+  
+.socials{
+    display: flex;
+    align-items: center;
+   
+}
+ 
+#contact{
+    color: rgb(0, 0, 0);
+    font-family:'clash display';
+    text-align:left;
+    width:300px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    
+}
+
+.contactme{
+    font-family:'clash display';
+    font-size: 20px;
+    padding: -50px;
+}
+
+.heading-font{
+    font-size: 60px;
+}
+
+.footer{
+    color: #fff;
+    background-color: black;
+}
+.footer a:hover,.footer a:hover,.footer a:hover{
+    color: blueviolet;
+}
+
+.footer a{
+    color: #fff;
+}
