@@ -155,6 +155,10 @@ body {
     padding: 20px;
 }
 
+.filler{
+    padding:30px;
+}
+
 .scrolling-text-container{
     position: relative;
     top: 50%;
@@ -176,7 +180,7 @@ body {
   }
   
   .scrolling-text.moveltr,.scrolling-text.movertl {
-    color: #fff;
+    color: #000000;
     font-size: 50px;
     white-space: nowrap;
     line-height: 1em;
@@ -187,7 +191,7 @@ body {
 .socials{
     display: flex;
     align-items: center;
-   
+
 }
  
 #contact{
@@ -214,10 +218,85 @@ body {
     color: #fff;
     background-color: black;
 }
-.footer a:hover,.footer a:hover,.footer a:hover{
+.footer a:hover{
     color: blueviolet;
 }
 
 .footer a{
     color: #fff;
 }
+
+.card{
+    width: 800px;
+    align-items:center;
+}
+
+#PR1,#PR2{
+    width:300px;
+    height:800px;
+    margin-left: 65px;
+}
+
+.card1{
+    width:500px;
+    height: 500px;
+    background-color: #fff;
+    padding: 100px;
+    font-family: 'clash display';
+    margin-top: 90px;
+}
+
+.card1a{
+    width:500px;
+    height: 500px;
+    color: #fff;
+    display: flex;
+    padding: 100px;
+    font-family: 'clash display';
+    margin-top: 90px;
+}
+
+.card1b{
+    width:500px;
+    height: 500px;
+    color: #fff;
+    display: ;
+    padding: 100px;
+    font-family: 'clash display';
+    margin-top: 90px;
+}
+
+.card2{
+    width:500px;
+    height: 500px;
+    background-color: #fff;
+    padding: 100px;
+    font-family: 'clash display';
+    margin-top: 40px;
+    margin-left: 765px;
+}
+
+.card2 :hover{
+    color: #000000;
+}
+
+.display-2.heading-font {
+    font-family: 'Press Start 2p';
+    font-size:120px ;
+    text-align: center;
+    
+}
+
+.aboutP1{
+    width:fit-content;
+    color: #fff;
+    font-family: Clash display;
+    padding-left: 300px ;
+}
+
+.aboutP2{
+
+    color: #fff;
+    font-family: Clash display;
+}
+
