@@ -247,13 +247,15 @@ body {
 }
 
 .card1a{
-    width:500px;
-    height: 500px;
+    width:1200px;
+    height: 1200px;
     color: #fff;
     display: flex;
-    padding: 100px;
     font-family: 'clash display';
-    margin-top: 90px;
+    margin-top: -350px;
+    padding-left: 700px;
+    text-align: left;
+    font-size: 25px;
 }
 
 .card1b{
@@ -261,9 +263,10 @@ body {
     height: 500px;
     color: #fff;
     display: flex;
-    padding: 100px;
     font-family: 'clash display';
-    margin-top: 90px;
+    margin-top: -350px;
+    text-align: right;
+    font-size: 25px;
 }
 
 .card2{
